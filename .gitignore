@@ -1,0 +1,43 @@
+# Ignore directory
+.ig/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Streamlit
+.streamlit/
+
+# Data files (if needed)
+*.csv
+*.xlsx
+*.json
+!requirements.json
+
+# Logs
+*.log
