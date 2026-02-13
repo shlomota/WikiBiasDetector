@@ -68,20 +68,6 @@ Compare Wikipedia articles across different language editions to detect bias.
 streamlit run wiki_language_bias_map.py
 ```
 
-### 4. Streamlit Dashboard (`streamlit_app.py`)
-Interactive web interface for revision analysis.
-
-**Features:**
-- Date range filtering
-- User activity visualization
-- Edit frequency analysis
-- Interactive charts and graphs
-
-**Usage:**
-```bash
-streamlit run streamlit_app.py
-```
-
 ## Setup
 
 ### 1. Install Dependencies
@@ -148,7 +134,6 @@ WikiBiasDetector/
 ├── wiki_blame.py              # Main wiki-blame tool
 ├── wiki_bias_analyzer.py      # Bias detection analyzer
 ├── wiki_language_bias_map.py  # Language comparison tool
-├── streamlit_app.py           # Interactive dashboard
 ├── requirements.txt           # Python dependencies
 ├── .gitignore                 # Git ignore rules
 └── README.md                  # This file
